@@ -1,0 +1,32 @@
+
+Producto, Categoría, Precio, Cantidad
+Laptop, Electrónica, 800, 2
+Silla, Muebles, 150, 5
+Teclado, Electrónica, 50, 3
+Mesa, Muebles, 200, 1
+Auriculares, Electrónica, 120, 4
+Cámara, Fotografía, 400, 2
+Móvil, Electrónica, 600, 3
+Sofá, Muebles, 1000, 1
+Impresora, Electrónica, 250, 5
+Lámpara, Muebles, 80, 7
+Monitor, Electrónica, 300, 2
+Estante, Muebles, 120, 4
+Proyector, Electrónica, 450, 3
+Reloj, Joyería, 200, 6
+Pulsera, Joyería, 100, 8
+Cargador, Electrónica, 30, 10
+Altavoces, Electrónica, 150, 2
+Cámara de seguridad, Electrónica, 120, 4
+Bicicleta, Deportes, 350, 2
+Casco, Deportes, 50, 6
+Silla de oficina, Muebles, 200, 3
+Gafas de sol, Joyería, 120, 5
+Teclado inalámbrico, Electrónica, 60, 3
+Microondas, Electrodomésticos, 120, 2
+Tetera, Electrodomésticos, 35, 7
+Aspiradora, Electrodomésticos, 180, 4
+Secador de pelo, Electrodomésticos, 50, 5
+Plancha, Electrodomésticos, 70, 3
+Nevera, Electrodomésticos, 700, 1
+Cafetera, Electrodomésticos, 100, 3
