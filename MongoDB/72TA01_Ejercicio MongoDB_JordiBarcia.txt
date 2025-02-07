@@ -1,0 +1,37 @@
+Enunciado 1
+
+ex 1:
+db.Empleados.insertMany([{'nombre':'Juan', 'cargo':'Ejecutivo', 'salario':1500,'departamento':'Finanzas', 'habilidades': ['x','y','z']},{'nombre':'Felipe', 'cargo':'Empleado', 'salario':1700,'departamento':'Contabilidad', 'habilidades': ['x','y','z']},{'nombre':'Alberto', 'cargo':'Jefe Responsable', 'salario':1550,'departamento':'Finanzas', 'habilidades': ['u','i','l']},{'nombre':'Jose', 'cargo':'Empleado', 'salario':1100,'departamento':'Contabilidad', 'habilidades': ['e','r','u']}])
+
+ex 2:
+db.Empleados.find()
+
+ex 3:
+db.Empleados.find({'departamento':'Finanzas'})
+
+ex 4:
+db.Empleados.updateMany({}, {'$mul':{'salario':1.05}})
+
+ex 5:
+db.Empleados.updateOne({'nombre':'Alberto'}, {'$push': {'habilidades': 'b'}})
+
+ex 6:
+db.Empleados.deleteOne({'nombre':'Alberto'})
+
+Enunciado 2
+
+ex 1:
+db.Productos.insertMany([{'nombre':'Ordenador', 'precio':699, 'stock':10, 'categoria':'Informatica'},
+{'nombre':'Lavadora', 'precio':875, 'stock':3, 'categoria':'PAE'}])
+
+ex 2:
+db.Productos.find({'categoria':'PAE'})
+
+ex 3:
+db.Productos.updateOne({'nombre':'Lavadora'}, {'$inc': {'stock': -1}})
+
+ex 4: 
+db.Productos.updateMany({'categoria':'Informatica'}, {'$mul': {'precio': 1.15}})
+
+ex 5:
+db.Productos.deleteOne({'nombre':'Ordenador'})
